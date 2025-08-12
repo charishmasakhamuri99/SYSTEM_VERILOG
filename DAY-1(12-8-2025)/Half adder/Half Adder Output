@@ -1,0 +1,12 @@
+genereated value : a=0,b=0
+genereated value : a=0,b=1
+genereated value : a=1,b=0
+genereated value : a=1,b=1
+dut value a=0,b=0,c=0,s=0
+Driver: a=0, b=0, sum=0, carry=0
+dut value a=0,b=1,c=0,s=1
+Driver: a=0, b=1, sum=1, carry=0
+dut value a=1,b=0,c=0,s=1
+Driver: a=1, b=0, sum=1, carry=0
+dut value a=1,b=1,c=1,s=0
+Driver: a=1, b=1, sum=0, carry=1
