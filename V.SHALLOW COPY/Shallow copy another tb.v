@@ -6,7 +6,9 @@ class vlsi;
   int a;
   int b;
   packet pkt=new();
-  function void print();//todetermine the object values instead of class name
+  function void print();//todetermine the object values instead of class name 
+    // to print the object value instead of class name we use function void print() but here the obj means pck shares the same memory 
+    //location so that the same value are displaying even thought the a,b are changing
     $display("a=%0d",a);
     $display("b=%0d",b);
     $display("pkt=%0p",pkt);
